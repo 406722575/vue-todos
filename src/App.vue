@@ -6,7 +6,7 @@
 </template>
 
 <script>
-    import Layouts from 'components/content/layouts/Layouts'
+    import Layouts from 'views/layouts/Layouts'
 
     export default {
         name: 'App',

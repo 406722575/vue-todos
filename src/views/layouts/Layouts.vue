@@ -4,16 +4,19 @@
             <menus></menus>
         </section>
         <section class="content-container"><!--右边的容器-->
+            <todo/>
         </section>
     </section>
 </template>
 
 <script>
-    import menus from 'views/Menus/menus'
+    import menus from 'components/content/Menus/menus'
+    import Todo from 'views/Todo/Todo'
     export default {
         name: "layouts",
         components:{
-            menus
+            menus,
+            Todo
         }
     }
 </script>

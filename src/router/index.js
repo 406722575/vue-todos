@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const Layouts = () => import('components/content/layouts/Layouts')
+const Layouts = () => import('views/layouts/Layouts')
 
 const routes = [
     {
